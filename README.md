@@ -1,22 +1,22 @@
-Simon Says Game
+# Simon Says Game
 
 This project is an implementation of the classic Simon Says game, created using HTML, CSS, and JavaScript. The game involves the system generating a random sequence of colors, and the player has to repeat the sequence by clicking on the corresponding colored buttons. With each correct input, the game advances to the next level, increasing the sequence length. If the player makes a mistake, the game ends, and the player's highest score is displayed.
 
-Features
+## Features
 
 - Random Color Sequence: The game generates a random sequence of colors, and the player must follow the sequence by pressing the corresponding colored buttons.
 - Levels: Each time the player correctly follows the sequence, the level increases, and the length of the sequence grows.
 - Game Over: If the player makes a mistake, the game ends, and the highest score achieved is displayed.
 
 
-How to Play
+# How to Play
 
 1. Start the Game: Press any key to start the game.
 2. Follow the Sequence: The system will show a color pattern by flashing colored buttons. Click on the buttons in the same order.
 3. Progressing Levels: Each time you correctly repeat the sequence, the game moves to the next level with an added color.
 4. Game Over: If you click the wrong button, the game will end and show your highest score.
 
-How It Works
+# How It Works
 
 - The game starts when the user presses any key on the keyboard.
 - A random color from a predefined set of colors (`yellow`, `red`, `green`, `purple`) is chosen, and the sequence grows as the game progresses.
@@ -24,13 +24,13 @@ How It Works
 - If the user presses the wrong button, the game is over, and the highest score is displayed.
 - The game resets, and the player can start again by pressing any key.
 
-Technologies Used
+# Technologies Used
 
 - HTML: Used for creating the structure of the game, including buttons and headings.
 - CSS: Used for styling the game interface, including button colors and flashing effects.
 - JavaScript: Used to implement the game logic, including sequence generation, button pressing, validation, and game state management.
 
-Code Explanation
+# Code Explanation
 
 Key Variables:
 - `gameSeq`: Stores the generated sequence of colors.
@@ -58,7 +58,7 @@ When the player clicks a wrong button, the game displays a Game Over message alo
 Game Reset:
 After the game ends, the sequence and score are reset, and the player can press any key to start a new game.
 
-How to Run
+# How to Run
 
 1. Clone the repository or download the project files.
 2. Open the `index.html` file in a web browser.
@@ -66,4 +66,4 @@ How to Run
 
 ---
 
-Enjoy playing Simon Says!
+# Enjoy playing Simon Says!
