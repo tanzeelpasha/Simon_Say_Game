@@ -65,5 +65,5 @@ After the game ends, the sequence and score are reset, and the player can press 
 3. Play the game by pressing any key to start.
 
 ---
-
+..
 # Enjoy playing Simon Says!
